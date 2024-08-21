@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Booking | Clone</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="bg">
+      <header>
+        <div class="logo">Booking.com</div>
+        <i class="fa-solid fa-bars" style="color: #fff" id="menu"></i>
+
+        <nav class="navbar">
+          <ul class="nav-ul">
+            <li class="currency active">GEL</li>
+            <li>
+              <i class="fa-solid fa-globe active" style="color: #ffdf"></i>
+            </li>
+            <li><i class="fa-solid fa-question active"></i></li>
+            <li class="list-property active">List your property</li>
+            <li><button class="reg-btn active">Register</button></li>
+            <li><button class="sign-btn active">Sign in</button></li>
+          </ul>
+        </nav>
+      </header>
+      <div class="offers">
+        <ul class="offers-ul">
+          <li>
+            <div class="div">
+              <i class="fa-solid fa-bed" style="color: #fff"></i
+              ><span class="stay"> Stays</span>
+            </div>
+          </li>
+          <li>
+            <i class="fa-solid fa-plane" style="color: #fff"></i>
+            <span class="flight">Flights</span>
+          </li>
+          <li>
+            <i class="fa-solid fa-car" style="color: #fff"></i
+            ><span class="rent"> Car rentals</span>
+          </li>
+          <li>
+            <i class="fa-solid fa-taxi" style="color: #fff"></i
+            ><span class="tax"> Airport taxis</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="bg2">
+      <div class="home">
+        <p>A place to call home</p>
+        <p>on your next adventure</p>
+        <h2>Experience the joy of an entire place to yourself</h2>
+        <button class="book-btn">Book a holiday rental</button>
+      </div>
+    </div>
+
+    <section class="form">
+      <form>
+        <input type="text" placeholder="   Where are you going?" id="going" />
+        <input type="text" placeholder="   Check in" id="checkin" />
+        <input
+          type="text"
+          placeholder="   2 adults - 0 children - 1 room"
+          id="quantity"
+        />
+        <button class="search-btn">Search</button>
+      </form>
+    </section>
+
+    <main class="main">
+      <section class="int-property">
+        <h2>Still interested in this property?</h2>
+        <img src="/images/img1.png" alt="" />
+      </section>
+
+      <section class="offers">
+        <h2>Offers</h2>
+        <p>Promotions, deals and special offers for you</p>
+      </section>
+
+      <section class="bg-3">
+        <h3>Seize the moment</h3>
+        <p>Save 15% or more when you book and stay before 1 October</p>
+        <p>2024</p>
+        <button class="offer-button">Find Getaway Details</button>
+      </section>
+
+      <section class="browse-property">
+        <h2>Browse by property type</h2>
+        <div class="apartments">
+          <div class="hotel">
+            <img src="/images/hotel.jpg" alt="" width="300px" />
+            <h4>Hotels</h4>
+          </div>
+          <div class="apartment">
+            <img src="/images/apartment.jpg" alt="" width="300px" />
+            <h4>Apartments</h4>
+          </div>
+          <div class="resort">
+            <img src="/images/resort.jpg" alt="" width="300px" height="200px" />
+            <h4>Resorts</h4>
+          </div>
+          <div class="villa">
+            <img src="/images/villa.jpg" alt="" width="300px" />
+            <h4>Villas</h4>
+          </div>
+        </div>
+      </section>
+
+      <section class="trending">
+        <h2>Trending destinations</h2>
+        <p>Most popular choices for travellers from Georgia</p>
+        <div class="flex-s-1">
+          <div class="batumi">
+            <h3>Batumi</h3>
+            <img
+              src="/images/destinations/batumi-dest.jpg"
+              alt=""
+              width="500px"
+            />
+          </div>
+          <div class="tbilisi">
+            <h3>Tbilisi</h3>
+            <img
+              src="/images/destinations/tbilisi-dest.jpg"
+              alt=""
+              width="650px"
+            />
+          </div>
+        </div>
+
+        <div class="flex-s-2">
+          <div class="istanbul">
+            <h3>Istanbul</h3>
+            <img
+              src="/images/destinations/istanbul-dest.jpg"
+              alt=""
+              width="300px"
+            />
+          </div>
+          <div class="kutaisi">
+            <h3>Kutaisi</h3>
+            <img
+              src="/images/destinations/kutaisi-dest.jpg"
+              alt=""
+              width="300px"
+            />
+          </div>
+          <div class="yerevan">
+            <h3>Yerevan</h3>
+            <img
+              src="/images/destinations/yerevan-dest.jpg"
+              alt=""
+              width="300px"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="explore">
+        <h2>Explore Georgia</h2>
+        <p>These popular destinations have a lot to offer</p>
+        <div class="explore-destination">
+          <div class="batumi">
+            <img src="/images/Forbes-WEB-1-2-770x540.jpg" alt="" />
+            <h4>Batumi</h4>
+            <p>9,211 properties</p>
+          </div>
+          <div class="tbilisi">
+            <img
+              src="/images/tbilisi-georgia-city-view-TBILISI0820-0c3649a5ce874e889fb5787ec287b064.jpg"
+              alt=""
+            />
+            <h4>Tbilisi</h4>
+            <p>10,256 properties</p>
+          </div>
+          <div class="kutaisi">
+            <img src="/images/kut.jpeg" alt="" />
+            <h4>Kutaisi</h4>
+            <p>746 properties</p>
+          </div>
+          <div class="borjomi">
+            <img src="/images/borjomi.jpg" alt="" />
+            <h4>Borjomi</h4>
+            <p>540 properties</p>
+          </div>
+          <div class="kakheti">
+            <img src="/images/kakheti.jpg" alt="" />
+            <h4>Kakheti</h4>
+            <p>624 properties</p>
+          </div>
+          <div class="stepantsminda">
+            <img src="/images/View_of_Stepantsminda_09.23.jpg" alt="" />
+            <h4>Stepantsminda</h4>
+            <p>240 properties</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="inspiration">
+        <div class="inspiration-head">
+          <h2>Get inspiration for your next trip</h2>
+          <a href="#">More</a>
+        </div>
+        <div class="inspiration-content">
+          <div class="nyc">
+            <img src="/images/newyearnyc.jpg" alt="" />
+            <h3>New Year's Eve in New York City</h3>
+          </div>
+          <div class="japan">
+            <img src="/images/japan.jpg" alt="" />
+            <h4>6 best ryokans in Japan to</h4>
+            <h4>rejuvenate yourself</h4>
+            <p>Discover unmissable ryokans to relax and unwind in style.</p>
+          </div>
+          <div class="christmas">
+            <img
+              src="/images/231213154218-rockerfeller-treee-112923.jpg"
+              alt=""
+            />
+            <h4>7 best places in US New York to celebrate Christmas</h4>
+            <p>Discover the shimmering lights and sights.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="guests">
+        <div class="guests-head">
+          <h2>Homes guests love</h2>
+          <a href="#">Discover homes</a>
+        </div>
+        <div class="guests-lovely">
+          <div class="part-one">
+            <img
+              src="/images/guests lovely/Screenshot 2024-08-18 193128.png"
+              alt=""
+            />
+          </div>
+          <div class="part-two">
+            <img
+              src="/images/guests lovely/Screenshot 2024-08-18 193212.png"
+              alt=""
+            />
+          </div>
+          <div class="part-three">
+            <img
+              src="/images/guests lovely/Screenshot 2024-08-18 193259.png"
+              alt=""
+            />
+          </div>
+          <div class="part-four">
+            <img
+              src="/images/guests lovely/Screenshot 2024-08-18 193414.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="discounts">
+        <h2>Get instant discounts</h2>
+        <p>Simply sign into your Booking.com account and look for the</p>
+        <p>blue Genius logo to save</p>
+        <div class="discount-btn">
+          <button class="sign">Sign in</button>
+          <button class="reg">Register</button>
+        </div>
+      </section>
+
+      <section class="destinations">
+        <h2>Destinations we love</h2>
+        <div class="reg-city-interest">
+          <p class="regions">Regions</p>
+          <p>Cities</p>
+          <p>Places of interest</p>
+        </div>
+      </section>
+
+      <div class="lists">
+        <div class="list-1">
+          <div class="wight">
+            <h4>Isle of Wight</h4>
+            <p>361 properties</p>
+          </div>
+          <div class="jersey">
+            <h4>Jersey</h4>
+            <p>90 properties</p>
+          </div>
+          <div class="lake">
+            <h4>Lake District</h4>
+            <p>2,461 properties</p>
+          </div>
+          <div class="guernsey">
+            <h4>Guernsey</h4>
+            <p>64 properties</p>
+          </div>
+        </div>
+        <div class="list-2">
+          <div class="tenerife">
+            <h4>Tenerife</h4>
+            <p>9,361 properties</p>
+          </div>
+          <div class="bihar">
+            <h4>Bihar</h4>
+            <p>781 properties</p>
+          </div>
+          <div class="pradesh">
+            <h4>Uttar Pradesh</h4>
+            <p>4,463 properties</p>
+          </div>
+          <div class="zanzibar">
+            <h4>Zanzibar</h4>
+            <p>882 properties</p>
+          </div>
+        </div>
+        <div class="list-3">
+          <div class="texel">
+            <h4>Texel</h4>
+            <p>411 properties</p>
+          </div>
+          <div class="mykonos">
+            <h4>Mykonos</h4>
+            <p>1,455 properties</p>
+          </div>
+          <div class="bali">
+            <h4>Bali</h4>
+            <p>13,206 properties</p>
+          </div>
+          <div class="bora">
+            <h4>Bora Bora</h4>
+            <p>59 properties</p>
+          </div>
+        </div>
+        <div class="list-4">
+          <div class="province">
+            <h4>Phuket Province</h4>
+            <p>5,547 properties</p>
+          </div>
+          <div class="england">
+            <h4>England</h4>
+            <p>80,062 properties</p>
+          </div>
+          <div class="ras">
+            <h4>Ras Ai Khaimah</h4>
+            <p>117 properties</p>
+          </div>
+          <div class="santorini">
+            <h4>Santorini</h4>
+            <p>117 properties</p>
+          </div>
+        </div>
+        <div class="list-5">
+          <div class="hawai">
+            <h4>Hawaii</h4>
+            <p>5,452 properties</p>
+          </div>
+          <div class="cornwall">
+            <h4>Cornwall</h4>
+            <p>5,459 properties</p>
+          </div>
+          <div class="ibiza">
+            <h4>Ibiza</h4>
+            <p>1,642 properties</p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer-bg">
+        <div class="footer-list">
+          <div class="footer-list-1">
+            <h4>Support</h4>
+            <p>FAQs</p>
+            <p>Manage your trips</p>
+            <p>Contact Customer Service</p>
+            <p>Safety resource center</p>
+          </div>
+          <div class="footer-list-2">
+            <h4>Discover</h4>
+            <p>Genius loyalty programme</p>
+            <p>Seasonal and holiday deals</p>
+            <p>Travel articles</p>
+            <p>Booking.com for Business</p>
+            <p>Traveller Review Awards</p>
+            <p>Car hire</p>
+            <p>Flight finder</p>
+            <p>Restaurant reservations</p>
+            <p>Booking.com for Travel Agents</p>
+          </div>
+          <div class="footer-list-3">
+            <h4>Terms and settings</h4>
+            <p>Privacy & cookies</p>
+            <p>Terms and conditions</p>
+            <p>Partner dispute</p>
+            <p>Modern Slavery Statement</p>
+            <p>Human Rights Statement</p>
+          </div>
+          <div class="footer-list-4">
+            <h4>Partners</h4>
+            <p>Extranet login</p>
+            <p>Partner help</p>
+            <p>List your property</p>
+            <p>Become an affiliate</p>
+          </div>
+          <div class="footer-list-5">
+            <h4>About</h4>
+            <p>About Booking.com</p>
+            <p>How we work</p>
+            <p>Sustainability</p>
+            <p>Press centre</p>
+            <p>Careers</p>
+            <p>Investor relations</p>
+            <p>Corporate contact</p>
+          </div>
+        </div>
+        <p class="copyright">
+          &copy; Copyright 2024. All Rights Reserved. Developed by Luka
+          Kartvelishvili
+        </p>
+      </div>
+    </footer>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
